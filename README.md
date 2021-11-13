@@ -8,9 +8,9 @@ Amazing Prime loves the dataset and wants to keep it updated on a daily basis. T
 ### Write an ETL Function to Read Three Data Files
 Using your knowledge of Python, Pandas, the ETL process, and code refactoring, write a function that reads in the three data files and creates three separate DataFrames.
 1. An ETL function is written to read in the three data files
-2. The function converts the Wikipedia **JSON**[]() file to a Pandas DataFrame, and the DataFrame is displayed in the ```ETL_function_test.ipynb``` file.
-3. The function converts the **Kaggle metadata**[]() file to a Pandas DataFrame, and the DataFrame is displayed in the ```ETL_function_test.ipynb``` file.
-4. The function converts the **MovieLens ratings**[]() data file to a Pandas DataFrame, and the DataFrame is displayed in the ```ETL_function_test.ipynb``` file.
+2. The function converts the Wikipedia **JSON** file to a Pandas DataFrame, and the DataFrame is displayed in the ```ETL_function_test.ipynb``` file.
+3. The function converts the **Kaggle metadata** file to a Pandas DataFrame, and the DataFrame is displayed in the ```ETL_function_test.ipynb``` file.
+4. The function converts the **MovieLens ratings** data file to a Pandas DataFrame, and the DataFrame is displayed in the ```ETL_function_test.ipynb``` file.
 ### Extract and Transform the Wikipedia Data.
 1. The TV shows are filtered out, and the wiki_movies_df DataFrame is created.
 2. A try-except block is used to catch errors while extracting the ```IMDb IDs``` with a regular expression and dropping duplicate ```IDs```..
@@ -44,7 +44,31 @@ Using your knowledge of Python, Pandas, the ETL process, and code refactoring, w
 2. The data from the MovieLens rating **CSV** file is added to the ratings table in the **SQL** database, as determined by the ```ratings_query.png```. 
 3. The elapsed time to add the data to the database is displayed in the ```ETL_create_database.ipynb``` file.
 ## Results:
-1. Write an ETL Function to Read Three Data Files
+1. Write an ETL Function to Read Three Data Files.
+2. 
+3. ![Screenshot (334)](https://user-images.githubusercontent.com/62036983/141652195-7b970ab8-0d71-4463-a25a-3a5963d3a733.png)
+
+    ![Screenshot (335)](https://user-images.githubusercontent.com/62036983/141652221-9272a572-14dc-437d-a846-93b10308cc1e.png)
+    
+    ![Screenshot (336)](https://user-images.githubusercontent.com/62036983/141652232-81e5e242-e4fc-4d0e-886c-a8d4543c70c2.png)
+
 3. Extract and Transform the Wikipedia Data
-4. Extract and Transform the Kaggle Data
-5. Create the Movie Database.
+4. 
+5. ![Screenshot (331)](https://user-images.githubusercontent.com/62036983/141652279-fe772d8f-fc75-443e-b3c2-f8b1d7ec0bb7.png)
+
+5. Extract and Transform the Kaggle Data.
+6. ![Screenshot (332)](https://user-images.githubusercontent.com/62036983/141652145-62b1c187-6f88-4114-b54a-a39cabea634c.png)
+
+   ![Screenshot (333)](https://user-images.githubusercontent.com/62036983/141652166-b4649f2d-afb5-4e67-ae8c-65000668f361.png)
+   
+  ![Screenshot (337)](https://user-images.githubusercontent.com/62036983/141652253-a1ad4930-96da-4b31-aab7-8ee32d43f6cf.png)
+
+8. Create the Movie Database. [Resourses]()
+![Screenshot (329)](https://user-images.githubusercontent.com/62036983/141652063-7d25029d-d5ea-4beb-a877-5c21509a39ca.png)
+
+![movies_query](https://user-images.githubusercontent.com/62036983/141652001-0e4f9fe2-0b1e-45c6-804b-094ac1fea6ba.png)
+
+![ratings_query](https://user-images.githubusercontent.com/62036983/141652006-eabefad0-31db-47e9-a943-8b2414a0236d.png)
+
+
+
